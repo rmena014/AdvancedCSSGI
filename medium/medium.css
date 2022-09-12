@@ -25,14 +25,12 @@ img {
   width: 100%;
   padding: 5px;
   text-align: center;
-  font-family: "Abril Fatface", sans-serif;
 }
 .item p {
   width: 100%;
   padding: 5px;
   text-align: center;
   font-style: none;
-  font-family: "Lato", serif;
 }
 a {
   text-decoration: none;
