@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: fixed;
+}
+
+table {
+  width: 45vw;
+  height: 45vw;
+  padding: 3px;
+  border: 2px solid rgb(0, 0, 0);
+  border-spacing: 0px 0px;
+  border-collapse: separate;
+}
+
+.square1 {
+  background-color: black;
+}
+
+.square2 {
+  background-color: white;
+}

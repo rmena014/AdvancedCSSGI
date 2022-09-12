@@ -1,0 +1,12 @@
+img {
+  position: absolute;
+}
+
+.stripe {
+  background-color: #9b1c2c;
+  width: 100%;
+  height: calc(450px / 8.16);
+}
+.stripe--white {
+  background-color: white;
+}

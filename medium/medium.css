@@ -1,0 +1,57 @@
+.items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 50px 30px;
+  box-shadow: 3px 5px 10px #b4b4b4;
+}
+.item img:hover {
+  transform: scale(1.04);
+}
+.item h2 {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-family: "Abril Fatface", sans-serif;
+}
+.item p {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-style: none;
+  font-family: "Lato", serif;
+}
+a {
+  text-decoration: none;
+}
+.item button {
+  padding: 5px 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(94, 186, 226);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.item button:hover {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease;
+  transform: scale(1.04);
+}
